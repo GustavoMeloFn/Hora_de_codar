@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trapézio</title>
+</head>
+<body>
+    <script>
+        let base_maior = prompt("digite a base maior: ");
+        let base_menor = prompt("digite a base menor: ");
+        let altura = prompt("digite a altura: ");
+
+        //conversão para valores inteiros.
+        base_maior = parseInt(base_maior);
+        base_menor = parseInt(base_menor);
+        altura = parseInt(altura);
+
+        /*O javascript entende a ordem de prioridade da matemática
+        e nos fornece o resultado correto*/
+        let area = (base_maior + base_menor) * altura / 2;
+
+        alert("Área do trapézio: " + area);
+    </script>
+</body>
+</html>
