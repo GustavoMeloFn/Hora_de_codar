@@ -1,2 +1,2 @@
 # ListaJs
-Hora de codar! lista de atividades básicas em Js.
+Hora de codar! lista de atividades básica em Js.
